@@ -6,7 +6,16 @@ const theme = {
 		primary: { main: "#0067E2" }
 	},
 	overrides: {
-		MuiDialog: { paperWidthMd: { maxWidth: 1100 } }
+		MuiDialogActions: { root: { padding: "8px 16px" } },
+		MuiDialogTitle: { root: { padding: "16px 14px 16px 24px" } },
+		MuiDialog: { paperWidthMd: { borderRadius: 12, maxWidth: 1100 } },
+		MuiButton: {
+			root: { fontWeight: 600, margin: "0 5px" },
+			outlined: { borderColor: "#D4D4D4" },
+			contained: {
+				"&.Mui-disabled": { backgroundColor: "#D4D4D4", color: "#ffffff" }
+			}
+		}
 	}
 };
 

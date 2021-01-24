@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CardMedia from "@material-ui/core/CardMedia";
-import ProductFormDialog from "./ProductFormDialog";
+import ProductFormDialog from "@locofast/components/ProductFormDialog";
 import ColorPalettes from "./ColorPalettes";
 
 const ProductItem = ({ id, name, imageUrl, colors }) => {
