@@ -2,10 +2,10 @@ import React from "react";
 import { ThemeProvider } from "@material-ui/core/styles";
 import ReactDOM from "react-dom";
 import "@fontsource/nunito";
+import theme from "@locofast/config/theme";
 
 import "@locofast/stylesheet";
 import App from "@locofast/app";
-import theme from "@locofast/config/theme";
 
 ReactDOM.render(
 	<React.StrictMode>
